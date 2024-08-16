@@ -17,14 +17,14 @@ h1 {
     line-height: 1.5;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
 .intro {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .intro p {
@@ -116,7 +116,7 @@ footer .social-links a:hover{
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -177,7 +177,7 @@ footer .social-links a:hover{
     h2{
         font-size: 42px;
     }
-    h4{
+    h3{
         font-size: 18px;
     }
     .intro{
