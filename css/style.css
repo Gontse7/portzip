@@ -17,6 +17,10 @@ h1 {
     line-height: 1.5;
 }
 
+h4 {
+    font-size: 48px;
+}
+
 .intro {
     background-color: var(--secondary-color);
     text-align: center;
@@ -70,6 +74,46 @@ nav a:hover,nav li.active a {
     color: var(--branding-color);
 }
 
+footer{
+    margin: 60px 0;
+}
+
+footer .content-box{
+    background-color: var(--secondary-color);
+    padding: 40px 120px;
+    border-radius: 10%;
+}
+
+footer .content-box p {
+    padding: 0;
+    margin: 0;
+}
+
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+
+footer .social-links a{
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover{
+    color: white;
+    background: var(--branding-color);
+}
 
 .content-container {
     padding: 160px 20px;
@@ -132,6 +176,9 @@ nav a:hover,nav li.active a {
     }
     h2{
         font-size: 42px;
+    }
+    h4{
+        font-size: 18px;
     }
     .intro{
         padding: 80px 10px;
