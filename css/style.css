@@ -41,6 +41,28 @@ h2 {
     font-size: 64px;
 }
 
+.about {
+    padding: 160px 20px;
+}
+
+.about h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about h2 {
+    font-size: 18px;
+    line-height: ;
+}
+
+.about-me {
+    margin: 30px;
+}
+
+.imgab {
+    border-radius: 10px;
+}
+
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
@@ -76,5 +98,9 @@ h2 {
     .p-description{
         padding: 0;
         text-align: center;
+    }
+    .about{
+        text-align: center;
+        padding: 0;
     }
 }
